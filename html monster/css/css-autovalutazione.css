@@ -1,0 +1,157 @@
+:root{
+    --primary-color: rgb(199, 199, 46);
+    --secondary-color: white;
+    --third-color: #22a6b3;
+}
+body{
+    margin: 0;
+}
+.a-for-buttons :hover{
+    transform: scale(1.05);
+    transition-duration: 0.6s;
+    filter: brightness(0.9);
+}
+/**************************
+div-autovalutazione
+****************************/
+.autovalutazione{
+    height: 30vh;
+    width: 100%;
+    background-color: var(--third-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--secondary-color);
+}
+.autovalutazione h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30pt;
+}
+/**************************
+end-div-autovalutazione
+****************************/
+/**************************
+section-form
+****************************/
+section{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.div-testo{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.div-testo h2{
+    margin-left: 8rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 30pt;
+    color: var(--third-color);
+}
+.div-form{
+    height: 100%;
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.div-form form{
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+}
+.div-form form select{
+    height: 5rem;
+    width: 50%;
+    border: none;
+    border-bottom: 2px solid var(--third-color);
+    margin-left: 8rem ;
+}
+.div-form form input:focus{
+    outline: none;
+}
+.div-form form button{
+    border: none;
+    height: 3rem;
+    width: 15rem;
+    margin-left: 8rem;
+    border-radius: 30px;
+    background-color: var(--primary-color);
+}
+.div-form-right{
+    height: 100%;
+    width: 47%;
+    background-image: url(../img/img-valutazione.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div-form-center{
+    height: 80%;
+    width: 2%;
+    border-radius: 20px;
+    background-color: var(--primary-color);
+}
+/**************************
+end-section-form
+****************************/
+/**************************
+foooter
+****************************/
+footer{
+    height: 35vh;
+    width: 100%;
+    background-color:whitesmoke;
+    display: flex;
+}
+.footer-right{
+    height: 100%;
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer-left img{
+    width: 12rem;
+}
+.footer-center{
+    height: 100%;
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer-left{
+    height: 100%;
+    width: 33.33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title-footer{
+    padding-left: 2rem;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20pt;
+    color: var(--third-color);
+}
+.ul-footer li {
+    padding: 0;
+    list-style: none;
+    font-size: 13pt;
+    margin-top: 0.5rem;
+    text-align: center;
+    color: black;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/**************************
+end-Footer
+****************************/
